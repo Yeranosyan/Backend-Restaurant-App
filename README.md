@@ -4,8 +4,7 @@
 - python3 manage.py runserver
 - http://127.0.0.1:8000 (by default)
 - setup your DB
-- DATABASES = {
- - 'default': {
+- DATABASES 
    - 'ENGINE': 'django.db.backends.mysql',
    - 'NAME': 'littlelemon',
    - 'USER': '--add here--',
@@ -14,9 +13,6 @@
    - 'PORT': '3306',
    - 'OPTIONS': {
    - 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-     - }
-   - }
-- }
 
 - Compose a back-end application using multiple skills.
 - Use Django to serve static HTML content.
@@ -130,11 +126,11 @@
 - Enter the correct URL.
 - Enter the fields and their values in the body tab in JSON format.
 
-## CHECK II OUT:
+# CHECK II OUT:
 
-# Login http://127.0.0.1:8000/admin/
+## Login http://127.0.0.1:8000/admin/
 
-- whit:
+- with:
   - username: gagik
   - email: gagik@project.com
   - password: gagik
