@@ -16,21 +16,23 @@ Including another URLconf
 """
 #update URLConf by including URL patterns of restaurant app
 from django.contrib import admin
+from django.shortcuts import redirect
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from restaurant import views
+from restaurant.views import BookingViewSet
 
 # Inside the project-level urls.py file, call the router.register() function to register the ViewSets, and add the router.urls in the project's urlpatterns list. The app/urls.py file isn't needed for this.
 
 router = DefaultRouter()
-router.register(r'tables', views.BookingViewSet)
+router.register(r'tables', BookingViewSet)
+def redirect_view(request):
+    return redirect('/restaurant/')
 
 urlpatterns = [
-   path('admin/', admin.site.urls),
-   path('restaurant/', include('restaurant.urls')),
-   path('restaurant/menu/', include('restaurant.urls')),
-   path('restaurant/booking/', include(router.urls)),
-   path('auth/', include('djoser.urls')),
-   path('auth/', include('djoser.urls.authtoken')),
-   path('api/' ,include('restaurant.urls')),
+    path('', redirect_view),
+    path("admin/", admin.site.urls),
+    path("restaurant/", include('restaurant.urls')),
+    path("restaurant/booking/", include(router.urls)),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
 ]
