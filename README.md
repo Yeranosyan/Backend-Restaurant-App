@@ -2,7 +2,7 @@
 # Open Project
 - cd littlelemon (directory to manage.py file)
 - python3 manage.py runserver
-- http://127.0.0.1:8000(by default)
+- http://127.0.0.1:8000 (by default)
 - setup your DB
 - DATABASES = {
 'default': {
