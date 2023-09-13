@@ -78,9 +78,9 @@
 # Create superuser:
 
 - python3 manage.py createsuperuser
-  username: gagik
-  email: gagik@project.com
-  password: gagik
+ - username: gagik
+ - email: gagik@project.com
+ - password: gagik
 
 # Create Django Rest Framework(DRF)
 
@@ -134,10 +134,10 @@
 
 # Login http://127.0.0.1:8000/admin/
 
-whit:
-username: gagik
-email: gagik@project.com
-password: gagik
+- whit:
+  - username: gagik
+  - email: gagik@project.com
+  - password: gagik
 
 - http://127.0.0.1:8000/restaurant/menu-items
 - http://127.0.0.1:8000/restaurant/menu-items/1
