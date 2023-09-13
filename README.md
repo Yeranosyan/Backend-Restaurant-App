@@ -5,7 +5,7 @@
 - http://127.0.0.1:8000 (by default)
 - setup your DB
 - DATABASES = {
- -'default': {
+ - 'default': {
    - 'ENGINE': 'django.db.backends.mysql',
    - 'NAME': 'littlelemon',
    - 'USER': '--add here--',
@@ -14,8 +14,8 @@
    - 'PORT': '3306',
    - 'OPTIONS': {
    - 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-      - }
-   -  }
+     - }
+   - }
 - }
 
 - Compose a back-end application using multiple skills.
