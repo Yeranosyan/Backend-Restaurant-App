@@ -1,4 +1,4 @@
-## Setting up the Django project 2023
+# Setting up the Django project 2023
 
 - Compose a back-end application using multiple skills.
 - Use Django to serve static HTML content.
@@ -114,7 +114,7 @@
 
 ## CHECK II OUT:
 
-# Login http://127.0.0.1:8000/admin/:
+# Login http://127.0.0.1:8000/admin/
 
 whit:
 username: gagik
