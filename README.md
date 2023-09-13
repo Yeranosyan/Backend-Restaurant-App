@@ -126,7 +126,7 @@
 - Enter the correct URL.
 - Enter the fields and their values in the body tab in JSON format.
 
-# CHECK II OUT:
+# CHECK IT OUT:
 
 ## Login http://127.0.0.1:8000/admin/
 
