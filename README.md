@@ -141,3 +141,10 @@
 - http://127.0.0.1:8000/auth/token/login/
 - http://127.0.0.1:8000/auth/token/logout/
 
+<img width="417" alt="Screenshot 2023-09-12 at 9 51 18 PM" src="https://github.com/Yeranosyan/Backend-Restaurant-App/assets/120154377/e85a1460-bbb3-4c78-8545-f9ab630d37b2">
+<img width="417" alt="Screenshot 2023-09-12 at 9 51 06 PM" src="https://github.com/Yeranosyan/Backend-Restaurant-App/assets/120154377/4893c263-7320-498b-9661-a14dd12f5cd2">
+<img width="420" alt="Screenshot 2023-09-12 at 9 50 51 PM" src="https://github.com/Yeranosyan/Backend-Restaurant-App/assets/120154377/8f02a02d-714c-4b9f-aecb-4af4286790c4">
+<img width="421" alt="Screenshot 2023-09-12 at 9 50 37 PM" src="https://github.com/Yeranosyan/Backend-Restaurant-App/assets/120154377/d8a6a93b-1de7-4b97-92f5-dc64ed466629">
+
+
+
