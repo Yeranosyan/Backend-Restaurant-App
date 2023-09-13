@@ -104,8 +104,8 @@
 - used the djoser library to implement registration, login, and logout features.
 
 - using: http://127.0.0.1:8000/admin/auth/user/add/
-  login: mike
-  password: 123lemon
+  - login: mike
+  - password: 123lemon
 - To login, visit the djoser generated URL http://127.0.0.1:8000/auth/token/login/:
   enter the username and password to obtain the token.
 
