@@ -1,3 +1,5 @@
+##Meta-Backend
+I began my journey with MySQL, mastering table creation and establishing relationships. I'm familiar with CRUD operations to implement a persistent storage application—create, read, update, and delete. Python emerged as my agile tool, enabling swift and versatile development. APIs seamlessly integrate components within web applications. Embracing Django amplified efficiency by marrying Python's prowess with API connectivity. Additionally, I gained proficiency in testing API endpoints using the Insomnia and Postman toolkit.
 # Setting up the Django project 2023
 # Open Project
 - cd littlelemon (directory to manage.py file)
